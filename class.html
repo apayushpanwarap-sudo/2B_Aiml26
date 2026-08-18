@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <script>
-    function sum(){
-        let age=phaseInt(prompt("enter value of a "));
+    // function sum()
+    // {
+    //     let a=10;
+    //     let b=20;
+    //     let c=a+b;
+    //     document.write(c);
+    // }
+    
+    // object has two type user defined and predefined
+
+    function voting(){
+        let age = parseInt(prompt("Enter the AGE : "));
         if(age>=18){
-            alert("you are eligible for voting");
+           // alert("you are elegible for voting");
+            let c = confirm("do you want to submit your response");
+            if(c){
+                alert("your response is submitted");
+            }
+            else{
+                alert("Thank you ! ");
+            }  
         }
         else{
-            alert("you are not eligible for voting");
+            alert("you are not elegible");
         }
     }
 </script>
 </head>
-
 <body>
+    <!-- <p>hello</p>
     <input type="button"
-           onclick="sum()"
-           value="result">
+           onclick="sum()" value="result"> -->
+
+           <input type="button"
+                  onclick="voting()"
+                  value="Check for voting elegibility">
 </body>
 </html>
