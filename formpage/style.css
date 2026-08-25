@@ -1,0 +1,14 @@
+div{
+    height:400px;
+    width:400px;
+    border: 2px solid black;
+    text-align: center;
+    position:relative;
+    left:450px;
+    top:100px;
+    background-color: antiquewhite;
+    border-radius:20%;
+}
+body{
+    background-color: rgb(196, 238, 243);
+}
