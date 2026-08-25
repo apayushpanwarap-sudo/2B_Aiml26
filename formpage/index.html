@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registration Form</title>
+
+    <!-- Connecting JavaScript file -->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div>
+    <h1>Registration Form</h1>
+
+    <form onsubmit="return validate()">
+
+        <!-- Name -->
+        <label for="UName">Name : </label>
+        <input
+            type="text"
+            id="UName"
+            placeholder="Enter Your Name Here"
+        >
+
+        <br><br>
+
+
+        <!-- Phone -->
+        <label for="Phone">Phone No : </label>
+        <input
+            type="text"
+            id="Phone"
+            placeholder="Enter Mobile No"
+            maxlength="10"
+        >
+
+        <br><br>
+
+
+        <!-- Email -->
+        <label for="Email">Email : </label>
+        <input
+            type="text"
+            id="Email"
+            placeholder="Enter Email Here"
+        >
+
+        <br><br>
+
+
+        <!-- Password -->
+        <label for="Password">Password : </label>
+        <input
+            type="password"
+            id="Password"
+            placeholder="Enter Password Here"
+            minlength="6"
+            maxlength="15"
+        >
+
+        <br><br>
+
+
+        <!-- Confirm Password -->
+        <label for="RePassword">Re-Password : </label>
+        <input
+            type="password"
+            id="RePassword"
+            placeholder="Confirm Password"
+            minlength="6"
+            maxlength="15"
+        >
+
+        <br><br>
+
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+</body>
+
+</html>
