@@ -27,16 +27,30 @@
 //  s1.display();    
 
 
-class hello{
-    constructor(){
-        console.log("hello constructor");
+// class hello{
+//     constructor(){
+//         console.log("hello constructor");
 
+//     }
+// }
+// class hi extends hello{
+//     constructor(){
+//         super();
+//         console.log("hi constructor");
+//     }
+// }
+// let n1=new hi();
+
+class hello{
+    info(){
+        console.log("hello info");
     }
 }
 class hi extends hello{
-    constructor(){
-        super();
-        console.log("hi constructor");
+    info(){
+        super.info();
+        console.log("hi info");
     }
 }
 let n1=new hi();
+n1.info();
