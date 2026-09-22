@@ -1,3 +1,6 @@
+// 6. Hospital Management System
+//  Create a base class Person with id, name, and age. Create a derived class Doctor containing specialization and consultationFee, and another derived class Patient containing disease and roomNo. Use constructors and super() for initialization. Define displayDetails() in Person and override it in both Doctor and Patient to display their specific information. Add a static member/method in Person to count and display the total number of persons created in the system. Create at least two doctors and two patients and display their details.   Concepts Covered: Hierarchical Inheritance, Constructor, super(), Static Member, Instance Method, Method Overriding
+
 class Person {
     static totalPersons = 0;
 
