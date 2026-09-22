@@ -1,3 +1,6 @@
+// 2. Bank Account Management 
+// Create a class BankAccount with accountNo, holderName, and balance. Use a constructor to initialize the account. Provide instance methods deposit(amount), withdraw(amount), and displayBalance(). Withdrawal should not be allowed when the requested amount is greater than the available balance. Create a static method bankInfo() that displays the bank name and general banking information. Create two account objects and perform different transactions on them.   Concepts Covered: Constructor, Objects, Instance Methods, Static Method, Object State
+
 class BankAccount {
 
     constructor(accountNo, holderName, balance) {
