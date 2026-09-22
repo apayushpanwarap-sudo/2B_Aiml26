@@ -1,3 +1,6 @@
+// 4. E-Commerce Product System
+//  Create a class Product with productId, productName, and price. Add an instance method getDiscountedPrice(discount) to calculate the final price. Create a static method compareProducts(p1, p2) that accepts two Product objects and displays the product having the higher price. Create a derived class Electronics having an additional property warranty. Override a suitable display method so that electronics-specific information is also displayed.   Concepts Covered: Objects as Arguments, Static Method, Instance Method, Inheritance, Overriding 
+
 class Product {
     constructor(productId, productName, price) {
         this.productId = productId;
