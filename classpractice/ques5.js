@@ -1,3 +1,6 @@
+// 5. Online Cab Booking System
+// Create a base class Vehicle having vehicleNo, driverName, and distance. Provide a method calculateFare() in the base class. Create two derived classes Car and Bike. Override calculateFare() such that a car charges Rs. 15 per km while a bike charges Rs. 8 per km. Use constructors and super() appropriately. Also create a static method in Vehicle to display the common booking platform name. Create objects of Car and Bike and calculate their fares for different distances.   Concepts Covered: Inheritance, Constructor Chaining, Static Method, Method Overriding, Runtime Behavior   
+
 class Vehicle {
     constructor(vehicleNo, driverName, distance) {
         this.vehicleNo = vehicleNo;
